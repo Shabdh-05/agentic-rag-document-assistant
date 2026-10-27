@@ -1,0 +1,45 @@
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Caches & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Environment & Credentials (NEVER commit secrets)
+.env
+*.env
+project/.env
+!project/.env.example
+!.env.example
+
+# Local Databases, Stores & Uploaded Documents
+qdrant_db/
+parent_store/
+markdown_docs/
+docs/
+*.pdf
+
+# Evaluation & Generated CSV/PNG Artifacts
+notebooks/output.csv
+ragas_*.csv
+rag_evaluation_*.csv
+rag_evaluation_*.png
+notebooks/ragas_*.csv
+notebooks/rag_evaluation_*.csv
+notebooks/rag_evaluation_*.png
+
+# Temporary & Log Files
+*.tmp
+*.log
+scratch/
